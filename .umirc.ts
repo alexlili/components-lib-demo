@@ -1,9 +1,12 @@
 import { defineConfig } from 'dumi';
+const repo = 'components_lib_demo';
 
 export default defineConfig({
   title: 'tf-components',
   hash: true,
   mode: 'site',
+  base: `/${repo}/`,
+  publicPath: `/${repo}/`,
   favicon: '/images/logo.png',
   logo: '/images/logo.png',
   outputPath: 'docs-dist',
