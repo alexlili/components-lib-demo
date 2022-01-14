@@ -16,12 +16,12 @@ export default {
   //   ],
   // ],
   // cssModules: true,
-  extractCSS: true,
-  lessInBabelMode: true,
-  runtimeHelpers: true,
-  esm: 'babel',
-  cjs: 'babel',
-  autoprefixer: {
-    browsers: ['ie>9', 'Safari >= 6'],
-  },
+  // extractCSS: true,
+  // lessInBabelMode: true,
+  // runtimeHelpers: true,
+  esm: 'rollup',
+  cjs: 'rollup',
+  // autoprefixer: {
+  //   browsers: ['ie>9', 'Safari >= 6'],
+  // },
 };
