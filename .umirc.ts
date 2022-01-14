@@ -2,6 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: 'tf-components',
+  hash: true,
+  mode: 'site',
   favicon: '/images/logo.png',
   logo: '/images/logo.png',
   outputPath: 'docs-dist',
