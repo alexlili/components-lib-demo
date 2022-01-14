@@ -5,16 +5,16 @@ export default {
   //   themeConfig: { mode: 'light' },
   //   base: '/components_lib_demo',
   // },
-  // extraBabelPlugins: [
-  //   [
-  //     'babel-plugin-import',
-  //     {
-  //       libraryName: 'antd',
-  //       libraryDirectory: 'es',
-  //       style: true,
-  //     },
-  //   ],
-  // ],
+  extraBabelPlugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+    ],
+  ],
   // cssModules: true,
   // extractCSS: true,
   // lessInBabelMode: true,
