@@ -2,22 +2,37 @@ import { defineConfig } from 'dumi';
 const repo = 'components_lib_demo';
 
 export default defineConfig({
-  title: 'tf-components',
+  title: 'components_lib_demo',
   hash: true,
   // history: {
   //   type: 'browser',
   // },
   // mode: 'site',
+  metas: [
+    {
+      name: 'keywords',
+      content: 'components, dumijs, lib, demo',
+    },
+    {
+      name: 'description',
+      content: '前端组件库demo',
+    },
+  ],
+  fastRefresh: {},
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
   favicon: `/${repo}/images/logo.png`,
   logo: `/${repo}/images/logo.png`,
   outputPath: 'docs-dist',
-  description: '组件库demo',
+  description: '烤米莓笔欢迎您',
   locales: [
     ['zh-CN', '中文'],
     ['en-US', 'English'],
   ],
+  targets: {
+    ie: 10,
+  },
+  dynamicImportSyntax: {},
   // mfsu: {},
   // webpack5: {},
   // analyze: {

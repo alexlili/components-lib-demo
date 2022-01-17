@@ -6,11 +6,13 @@
 /yarn-error.log
 /yarn.lock
 /package-lock.json
+/.github
 
 # production
 /es
 /docs-dist
 /dist
+
 
 # misc
 .DS_Store

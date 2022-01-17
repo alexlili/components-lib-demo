@@ -6,19 +6,23 @@
 /yarn-error.log
 /yarn.lock
 /package-lock.json
+/.github
 
 # production
+/src
 /es
 /docs-dist
 /public
 /docs
 .editorconfig
 .fatherrc.ts
+.prettierrc.js
 .prettierignore
 .umirc.ts
 README.md
 tsconfig.json
 typings.d.ts
+README.project
 
 
 # misc

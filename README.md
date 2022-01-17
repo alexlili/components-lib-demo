@@ -1,33 +1,13 @@
-# components-lib-demo
+# tf-roadshow-components
 
-## Getting Started
+#### 安装
 
-Install dependencies,
-
-```bash
-$ npm i
+```
+npm install tf-roadshow-components
 ```
 
-Start the dev server,
+#### 导入
 
-```bash
-$ npm start
 ```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
+import { QRCodePosterTool } from 'tf-roadshow-components'
 ```
