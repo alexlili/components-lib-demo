@@ -4,16 +4,16 @@ const repo = 'components_lib_demo';
 export default defineConfig({
   title: 'tf-components',
   hash: true,
-  publicPath: `/${repo}/`,
-  base: `/${repo}/`,
+  // publicPath: `/${repo}/`,
+  // base: `/${repo}/`,
   history: {
     type: 'browser',
   },
   // mode: 'site',
   // base: `/${repo}/`,
   // publicPath: process.env.NODE_ENV === 'production' ? '/foo/' : '/',
-  favicon: '/images/logo.png',
-  logo: '/images/logo.png',
+  favicon: '../images/logo.png',
+  logo: '../images/logo.png',
   outputPath: 'docs-dist',
   description: '组件库demo',
   locales: [
