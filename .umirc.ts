@@ -4,8 +4,8 @@ const repo = 'components_lib_demo';
 export default defineConfig({
   title: 'tf-components',
   hash: true,
-  // publicPath: `/${repo}/`,
-  // base: `/${repo}/`,
+  publicPath: `/${repo}/`,
+  base: `/${repo}/`,
   history: {
     type: 'browser',
   },
