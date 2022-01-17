@@ -4,11 +4,11 @@ const repo = 'components_lib_demo';
 export default defineConfig({
   title: 'tf-components',
   hash: true,
-  publicPath: `/${repo}/`,
-  base: `/${repo}/`,
-  history: {
-    type: 'browser',
-  },
+  // publicPath: `/${repo}/`,
+  // base: `/${repo}/`,
+  // history: {
+  //   type: 'browser',
+  // },
   // mode: 'site',
   // base: `/${repo}/`,
   // publicPath: process.env.NODE_ENV === 'production' ? '/foo/' : '/',
@@ -20,8 +20,8 @@ export default defineConfig({
     ['zh-CN', '中文'],
     ['en-US', 'English'],
   ],
-  mfsu: {},
-  webpack5: {},
+  // mfsu: {},
+  // webpack5: {},
   // analyze: {
   //   analyzerMode: 'server',
   //   analyzerPort: 8888,
